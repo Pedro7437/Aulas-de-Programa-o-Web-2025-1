@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="W:\Downloads\popCatOpen.ico">
+    <title>Contato - Curso HTML e CSS</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="contato.html">sobre</a></li>
+                <li><a href="sobre.html">contato</a></li>
+            </ul>
+        </nav>
+
+        <div class="dark-mode-toggle">
+            <label for="dark-mode-toggle">Modo Escuro</label>
+            <input type="checkbox" id="darkModeToggle">
+        </div>
+    </header>
+
+    <main>
+        <!-- <div class="visit-counter">
+            Número de visitas: <span id="visitCount">0</span>
+        </div> -->
+
+        <h1>Entre em contato</h1>
+        <section class="contato">
+            <div class="info-contato">
+                <h2>Informações de Contato</h2>
+                <div class="contatos-detalhes">
+                    <div class="contato-item">
+                        <h3>E-mail</h3>
+                        <p>curso@exemplo.com</p>
+                    </div>
+
+                    <div class="contato-item">
+                        <h3>Telefone</h3>
+                        <p>(11) 97070-7070</p>
+                    </div>
+                    <div class="contato-item">
+                        <h3>Horário de atendimento</h3>
+                        <p>Segunda a Sexta: 9h às 18h</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-section">
+                <h2>Formulario de Inscrição</h2>
+                <form class="formulario">
+                    <div class="form-grupo">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" id="email" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="telefone">Telefone</label>
+                        <input type="text" name="telefone" id="telefone" required>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label for="mensagem">Por que você quer fazer o curso?</label>
+                        <textarea name=",mensagem" id="mensagem" required></textarea>
+                    </div>
+
+                    <div class="form-grupo">
+                        <label>
+                            <input type="checkbox" name="newsletter" id="newsletter">
+                            Desejo receber novidades sobre próximos cursos
+                        </label>
+
+                        <button type="submit">Enviar Inscrição</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Curso HTML e CSS</p>
+    </footer>
+    <script src="../JS/main.js"></script>
+</body>
+</html>
